@@ -1,0 +1,105 @@
+
+/* Base Style 	*/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+	padding-top: 7.5rem;
+}
+
+#top {
+	margin-bottom: 100px;
+}
+
+#logo {
+	display: block;
+	margin-left: 6%;
+}
+
+#links {
+	margin-top: 100px;
+	padding-top: 20px;
+	background-color: #ececec;
+}
+
+#links ul {
+	list-style: none;
+}
+
+#links a {
+	color: gray;
+}
+
+#traffic {
+	margin-left: 15%;
+}
+
+/* Header */
+#header {
+	margin-left: 14%;
+}
+
+#header h1 {
+	font-size: 9rem;
+	color: #D0021B;
+}
+
+#header p {
+	text-align: left;
+	font-size: 2.2rem;
+	letter-spacing: 0.7px;
+}
+
+#social strong {
+	font-size: 1.9rem;
+	letter-spacing: 0.7px;
+}
+
+.msg h4{
+	font-size: 1.7rem;
+	letter-spacing: 0.7px;
+	text-align: center;
+}
+
+.ads h4{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	font-size: 1.2rem;
+	letter-spacing: 0.7px;
+}
+
+#footer {
+	padding-top: 20px;
+	background-color: #e0e0e0;
+	font-size: 18px;
+}
+
+#footer p {
+	width: 100%;
+	text-align: center;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 600px) {
+
+	#logo {
+		margin-left:  auto;
+    	margin-right: auto;
+    	padding-left: 20%;
+    }
+    #top {margin-bottom: 40px;}
+
+    #emergency  {margin-left: 10%;}
+	#header 	{display: none;}
+	#social 	{display: none;}
+	#sidebar	{display: none;}
+	#traffic	{display: none;}
+	#news		{display: none;}
+
+	.footer {
+		font-size: 16px;
+		text-align: center;
+	}
+}
