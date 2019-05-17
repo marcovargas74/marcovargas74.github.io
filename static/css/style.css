@@ -3,6 +3,7 @@
 
 body {
 	font-family: 'Open Sans', sans-serif;
+	background-color: #ececec;
 }
 
 .container {
@@ -39,11 +40,12 @@ body {
 /* Header */
 #header {
 	margin-left: 14%;
+	color: #00001B;	
 }
 
 #header h1 {
 	font-size: 9rem;
-	color: #D0021B;
+	color: #00009B;
 }
 
 #header p {
